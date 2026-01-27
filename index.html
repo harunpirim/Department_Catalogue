@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMSE Department Catalogue</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #102031;
+        --muted: #4b5b6b;
+        --accent: #0d5ea6;
+        --bg: #f7f9fc;
+        --card: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        color: var(--ink);
+        background: var(--bg);
+        line-height: 1.6;
+      }
+
+      header {
+        background: linear-gradient(120deg, #0d5ea6, #0a3e6b);
+        color: #ffffff;
+        padding: 48px 20px;
+      }
+
+      header h1 {
+        margin: 0 0 12px 0;
+        font-size: clamp(2rem, 4vw, 3rem);
+      }
+
+      header p {
+        margin: 0;
+        max-width: 760px;
+      }
+
+      main {
+        padding: 28px 20px 60px;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+
+      section {
+        background: var(--card);
+        border-radius: 16px;
+        padding: 24px;
+        margin-bottom: 20px;
+        box-shadow: 0 10px 30px rgba(16, 32, 49, 0.08);
+      }
+
+      h2 {
+        margin-top: 0;
+        color: var(--accent);
+      }
+
+      .grid {
+        display: grid;
+        gap: 16px;
+      }
+
+      @media (min-width: 820px) {
+        .grid-2 {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .grid-3 {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+      }
+
+      .pill {
+        display: inline-block;
+        padding: 4px 12px;
+        border-radius: 999px;
+        background: rgba(13, 94, 166, 0.12);
+        color: var(--accent);
+        font-weight: 600;
+        font-size: 0.85rem;
+      }
+
+      .card {
+        background: #f3f6fb;
+        border-radius: 12px;
+        padding: 16px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.9rem;
+        padding: 30px 20px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Industrial &amp; Manufacturing Systems Engineering (IMSE)</h1>
+      <p>
+        A department catalogue designed to showcase how IMSE blends people,
+        data, and technology to improve systems in healthcare, manufacturing,
+        energy, logistics, and public policy.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <span class="pill">Department Snapshot</span>
+        <h2>What is Industrial &amp; Manufacturing Systems Engineering?</h2>
+        <p>
+          IMSE focuses on designing, improving, and operating complex systems
+          where people, machines, information, and resources interact. Our
+          students learn to model reality, optimize decisions, and deliver
+          practical, measurable impact for organizations and communities.
+        </p>
+        <div class="grid grid-3">
+          <div class="card">
+            <strong>Core Themes</strong>
+            <ul>
+              <li>Optimization &amp; decision analytics</li>
+              <li>Operations research &amp; simulation</li>
+              <li>Human-centered systems design</li>
+              <li>Manufacturing &amp; supply chain</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>Application Areas</strong>
+            <ul>
+              <li>Healthcare operations</li>
+              <li>Energy and infrastructure</li>
+              <li>Transportation &amp; logistics</li>
+              <li>AI-enabled decision support</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>Skills You Build</strong>
+            <ul>
+              <li>Systems thinking</li>
+              <li>Data storytelling</li>
+              <li>Technical communication</li>
+              <li>Leadership &amp; teamwork</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <span class="pill">Lab Highlight</span>
+        <h2>Connect Elicit Learn (CELL) Lab</h2>
+        <p>
+          The CELL Lab brings together experts from industrial engineering,
+          computer science, and political science to advance research in
+          mathematical programming, network analysis, machine learning, and
+          computational social science. The lab applies graph theory and AI to
+          real-world challenges ranging from biological networks to power grids.
+          Learn more about the team and current projects on the official lab
+          page:
+          <a href="https://www.ndsu.edu/labs/cell/we_are" target="_blank"
+            rel="noreferrer"
+            >ndsu.edu/labs/cell/we_are</a
+          >.
+        </p>
+        <div class="grid grid-2">
+          <div class="card">
+            <strong>Research Focus</strong>
+            <ul>
+              <li>Graph theory and network science</li>
+              <li>Machine learning for prediction</li>
+              <li>Computational social science</li>
+              <li>Decision analytics for complex systems</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>Why It Matters</strong>
+            <ul>
+              <li>Turns data into actionable intelligence</li>
+              <li>Improves robustness of critical networks</li>
+              <li>Connects AI with real-world decision making</li>
+              <li>Builds multidisciplinary research teams</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <span class="pill">Why Industrial Engineering?</span>
+        <h2>The Value of Industrial Engineering</h2>
+        <p>
+          Industrial engineers connect the dots between strategy and execution.
+          We optimize systems to reduce waste, boost productivity, and ensure
+          that people and technology work together seamlessly.
+        </p>
+        <div class="grid grid-2">
+          <div class="card">
+            <strong>Real-World Impact</strong>
+            <ul>
+              <li>Reduce patient wait times and improve care quality</li>
+              <li>Design sustainable supply chains</li>
+              <li>Increase manufacturing throughput and quality</li>
+              <li>Enable data-driven public policy decisions</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>Industry Demand</strong>
+            <ul>
+              <li>Employers need systems thinkers</li>
+              <li>Data analytics skills are essential</li>
+              <li>Optimization saves time and money</li>
+              <li>IEs translate complexity into clarity</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <span class="pill">Decision Science</span>
+        <h2>Decision Science in IMSE</h2>
+        <p>
+          Decision science uses data, probability, and modeling to identify the
+          best actions in uncertain environments. It blends statistics,
+          operations research, and behavioral insights to help organizations
+          choose wisely.
+        </p>
+        <div class="grid grid-2">
+          <div class="card">
+            <strong>Methods We Teach</strong>
+            <ul>
+              <li>Predictive analytics</li>
+              <li>Optimization under uncertainty</li>
+              <li>Simulation and scenario planning</li>
+              <li>Multi-criteria decision making</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>Where It Applies</strong>
+            <ul>
+              <li>Healthcare resource planning</li>
+              <li>Smart manufacturing systems</li>
+              <li>Energy grid resilience</li>
+              <li>Public sector policy evaluation</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <span class="pill">Operations Research + AI</span>
+        <h2>Operations Research in the Modern AI Landscape</h2>
+        <p>
+          AI is powerful, but it needs disciplined decision frameworks.
+          Operations research (OR) provides the optimization, constraints, and
+          explainability needed to deploy AI responsibly. Together they enable
+          systems that are both intelligent and trustworthy.
+        </p>
+        <div class="grid grid-3">
+          <div class="card">
+            <strong>How OR Elevates AI</strong>
+            <ul>
+              <li>Optimizes model outputs into real actions</li>
+              <li>Balances trade-offs with constraints</li>
+              <li>Improves fairness and transparency</li>
+              <li>Supports robust, scalable deployment</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>AI-Driven OR Use Cases</strong>
+            <ul>
+              <li>Supply chain risk mitigation</li>
+              <li>Smart energy dispatch</li>
+              <li>Transportation routing at scale</li>
+              <li>Automated scheduling systems</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>Student Advantage</strong>
+            <ul>
+              <li>Blend optimization with ML</li>
+              <li>Deliver explainable outcomes</li>
+              <li>Build decision intelligence</li>
+              <li>Lead AI-enabled transformation</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <span class="pill">Career Outcomes</span>
+        <h2>How Much Do Graduates Earn?</h2>
+        <p>
+          National labor data show strong earning potential for roles commonly
+          pursued by IMSE graduates.
+        </p>
+        <div class="grid grid-2">
+          <div class="card">
+            <strong>Industrial Engineers</strong>
+            <p>
+              Median annual wage: $99,380 (May 2023).
+              <br />
+              Source:
+              <a href="https://www.bls.gov/oes/2023/may/oes172112.htm"
+                target="_blank"
+                rel="noreferrer"
+                >BLS Occupational Employment and Wages</a
+              >.
+            </p>
+          </div>
+          <div class="card">
+            <strong>Operations Research Analysts</strong>
+            <p>
+              Median annual wage: $83,640 (May 2023).
+              <br />
+              Source:
+              <a href="https://www.bls.gov/oes/2023/may/oes152031.htm"
+                target="_blank"
+                rel="noreferrer"
+                >BLS Occupational Employment and Wages</a
+              >.
+            </p>
+          </div>
+        </div>
+        <p>
+          Salaries vary by location, experience, and industry, but IMSE
+          graduates consistently command competitive compensation in analytics,
+          manufacturing, and tech-enabled roles.
+        </p>
+      </section>
+
+      <section>
+        <span class="pill">Notable Alumni</span>
+        <h2>CEOs and Famous Graduates with Industrial Engineering Backgrounds</h2>
+        <div class="grid grid-2">
+          <div class="card">
+            <strong>Tim Cook</strong>
+            <p>
+              CEO of Apple. Earned a B.S. in Industrial Engineering from Auburn
+              University.
+              <a
+                href="https://eng.auburn.edu/insy/academics/undergraduate/scholarships/tim-cook/index.html"
+                target="_blank"
+                rel="noreferrer"
+                >Source</a
+              >.
+            </p>
+          </div>
+          <div class="card">
+            <strong>Lee Iacocca</strong>
+            <p>
+              Former CEO of Chrysler and a legendary automotive leader.
+              Graduated from Lehigh University with a degree in industrial
+              engineering.
+              <a
+                href="https://news.lehigh.edu/iacocca-driven-to-succeed"
+                target="_blank"
+                rel="noreferrer"
+                >Source</a
+              >.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <span class="pill">Fun Facts</span>
+        <h2>IMSE: Fun Facts &amp; Insights</h2>
+        <div class="grid grid-3">
+          <div class="card">
+            <strong>Systems First</strong>
+            <p>
+              Industrial engineers optimize entire systems, not just individual
+              machines or parts.
+            </p>
+          </div>
+          <div class="card">
+            <strong>Human-Centered</strong>
+            <p>
+              The field blends engineering with psychology, economics, and
+              design to make work better for people.
+            </p>
+          </div>
+          <div class="card">
+            <strong>Everywhere Impact</strong>
+            <p>
+              From hospitals to space missions, IMSE tools help teams make
+              smarter, faster decisions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <span class="pill">Get Involved</span>
+        <h2>Join the IMSE Community</h2>
+        <p>
+          Whether you want to design smarter systems, lead data-driven
+          innovation, or solve high-impact societal challenges, IMSE offers a
+          direct path to meaningful work. Reach out to learn about admissions,
+          research opportunities, and partnerships.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      IMSE Department Catalogue &middot; Prepared for prospective students,
+      partners, and collaborators.
+    </footer>
+  </body>
+</html>
