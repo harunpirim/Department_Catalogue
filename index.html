@@ -38,8 +38,9 @@
       }
 
       header p {
-        margin: 0;
+        margin: 0 0 16px 0;
         max-width: 760px;
+        font-size: 1.08rem;
       }
 
       main {
@@ -54,6 +55,7 @@
         padding: 24px;
         margin-bottom: 20px;
         box-shadow: 0 10px 30px rgba(16, 32, 49, 0.08);
+        border-top: 4px solid rgba(13, 94, 166, 0.18);
       }
 
       h2 {
@@ -105,6 +107,59 @@
         text-decoration: underline;
       }
 
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 10px 14px;
+        border-radius: 10px;
+        font-weight: 600;
+        text-decoration: none;
+        border: 1px solid transparent;
+      }
+
+      .btn-primary {
+        background: #ffffff;
+        color: #0a3e6b;
+      }
+
+      .btn-primary:hover {
+        background: #eef5ff;
+        text-decoration: none;
+      }
+
+      .btn-ghost {
+        background: transparent;
+        color: #ffffff;
+        border-color: rgba(255, 255, 255, 0.6);
+      }
+
+      .btn-ghost:hover {
+        background: rgba(255, 255, 255, 0.15);
+        text-decoration: none;
+      }
+
+      .section-cta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      .btn-accent {
+        background: var(--accent);
+        color: #ffffff;
+      }
+
+      .btn-accent:hover {
+        background: #0a4f88;
+        text-decoration: none;
+      }
+
       footer {
         text-align: center;
         color: var(--muted);
@@ -117,31 +172,48 @@
     <header>
       <h1>Industrial &amp; Manufacturing Systems Engineering (IMSE)</h1>
       <p>
-        A department catalogue designed to showcase how IMSE blends people,
-        data, and technology to improve systems in healthcare, manufacturing,
-        energy, logistics, and public policy.
+        Shape the future of industry, innovation, and efficiency.
       </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://www.ndsu.edu/industrial-manufacturing-systems-engineering">Explore Programs</a>
+        <a class="btn btn-ghost" href="https://www.ndsu.edu/industrial-manufacturing-systems-engineering/people">Meet Faculty</a>
+        <a class="btn btn-ghost" href="https://www.ndsu.edu/industrial-manufacturing-systems-engineering/contact">Contact IMSE</a>
+      </div>
     </header>
 
     <main>
       <section>
-        <span class="pill">Section 1</span>
+        <span class="pill">Overview</span>
         <h2>Why Choose IMSE at NDSU?</h2>
         <p>
-          IMSE at NDSU prepares students to design, improve, and lead complex
-          systems across healthcare, manufacturing, logistics, technology,
-          and energy. The program emphasizes practical impact through
-          internships, applied projects, and industry collaboration.
+          Industrial and Manufacturing Systems Engineers are problem-solvers and
+          efficiency experts behind nearly every modern industry, from
+          aerospace and automotive to healthcare, technology, manufacturing, and
+          logistics. At North Dakota State University, our programs empower
+          students with the skills and experiences to drive meaningful change in
+          the real world.
         </p>
+        <p>
+          Our curriculum blends a solid foundation in core engineering
+          principles with hands-on learning, cutting-edge technology, and
+          opportunities for collaborative, interdisciplinary projects. You will
+          learn to design, optimize, and manage complex systems of people,
+          materials, information, and energy.
+        </p>
+        <p><strong>Lead Systems. Drive Innovation. Shape the Future.</strong></p>
         <div class="grid grid-2">
           <div class="card">
-            <strong>What Makes It Distinctive</strong>
+            <strong>Why choose IMSE at NDSU?</strong>
             <ul>
-              <li>Big-picture systems thinking with data-driven decisions</li>
-              <li>Hands-on learning with modern engineering tools</li>
-              <li>High-demand career paths across multiple industries</li>
-              <li>Strong mentorship from faculty and advisors</li>
+              <li>Endless career options across diverse industries</li>
+              <li>Fast-track career growth into leadership roles</li>
+              <li>Real-world experience through internships and research</li>
+              <li>Impact-driven work in healthcare, supply chains, and smart factories</li>
             </ul>
+            <p>
+              Join a program where innovation meets opportunity and where your
+              engineering degree can take you anywhere.
+            </p>
           </div>
           <div class="card">
             <strong>Explore Next</strong>
@@ -156,38 +228,73 @@
       </section>
 
       <section>
-        <span class="pill">Section 2</span>
+        <span class="pill">Big-Picture Engineering</span>
         <h2>IMSE at a Glance: Programs, Pathways, and Career Flexibility</h2>
-        <div class="grid grid-3">
+        <p>
+          <strong>Where Big Picture Thinking Takes the Lead.</strong> Choosing
+          an engineering path is not always clear-cut. Mechanical, electrical,
+          and civil engineering each play an important role, but IMSE is for
+          students who want to connect the parts and ask, "How can we make this
+          better?"
+        </p>
+        <p>
+          IMSE is the big-picture discipline for organizers, optimizers, and
+          visionaries. If you see patterns, ask questions, and want to lead
+          change, IMSE turns ideas into practical solutions.
+        </p>
+        <div class="grid grid-2">
           <div class="card">
-            <strong>Program Options</strong>
+            <strong>What is Industrial and Manufacturing Systems Engineering?</strong>
+            <p>
+              Industrial and manufacturing systems engineering is about
+              designing, improving, and managing complex systems. IMSE
+              professionals streamline how people, machines, and information
+              work together to make processes more efficient, productive, and
+              people-focused.
+            </p>
             <ul>
-              <li>Industrial Engineering and Management (major/minor)</li>
-              <li>M.S., M.E., and Ph.D. pathways</li>
-              <li>Interdisciplinary and applied learning tracks</li>
+              <li>A mechanical engineer might design the chassis or suspension of an electric car</li>
+              <li>An electrical engineer might focus on battery technology or onboard systems</li>
+              <li>An IMSE professional designs the whole factory and optimizes flow from supply chain to delivery</li>
             </ul>
           </div>
           <div class="card">
-            <strong>Accelerated Pathways</strong>
+            <strong>What does my future look like with an IMSE degree?</strong>
+            <p>
+              An IMSE degree broadens your horizon and helps you create
+              meaningful change. IMSE is not just about factory floors; it is
+              about managing entire operations.
+            </p>
             <ul>
-              <li>B.S. + MBA option</li>
-              <li>B.S. + Master of Engineering option</li>
-              <li>Potential to complete both degrees in five years</li>
+              <li>NDSU IMSE reports a 96% full-time employment rate</li>
+              <li>Entertainment: design theme park flow and ride queues</li>
+              <li>Healthcare: improve patient wait times and hospital logistics</li>
+              <li>Finance: optimize trading systems and workflows</li>
+              <li>E-commerce and logistics: power smarter global operations</li>
+              <li>Airlines and tech startups: scale scheduling and operations</li>
             </ul>
           </div>
-          <div class="card">
-            <strong>Career Flexibility</strong>
-            <ul>
-              <li>Manufacturing, healthcare, and logistics operations</li>
-              <li>Analytics, consulting, and systems optimization</li>
-              <li>Leadership roles from project management to C-suite</li>
-            </ul>
-          </div>
+        </div>
+        <div class="card" style="margin-top: 16px;">
+          <strong>Is IMSE Right for You?</strong>
+          <p>
+            If you see the big picture and want to improve it, IMSE might be
+            your path forward.
+          </p>
+          <ul>
+            <li>Do you enjoy organizing chaos and making things run smoothly?</li>
+            <li>Do you naturally connect the dots while others focus on one piece?</li>
+            <li>Do you like having a plan but can pivot when things change?</li>
+          </ul>
+          <p>
+            These are the instincts of a systems thinker and the foundation of
+            great leadership.
+          </p>
         </div>
       </section>
 
       <section>
-        <span class="pill">Section 3</span>
+        <span class="pill">Facts</span>
         <h2>IMSE Facts and Fast Stats</h2>
         <div class="grid grid-2">
           <div class="card">
@@ -212,7 +319,7 @@
       </section>
 
       <section>
-        <span class="pill">Section 4</span>
+        <span class="pill">Faculty</span>
         <h2>Faculty Teaching Excellence and Mentorship</h2>
         <p>
           IMSE faculty combine classroom instruction, real-world experience,
@@ -243,7 +350,7 @@
       </section>
 
       <section>
-        <span class="pill">Section 5</span>
+        <span class="pill">Research</span>
         <h2>Faculty Research and Innovation Profile</h2>
         <div class="grid grid-2">
           <div class="card">
@@ -252,7 +359,7 @@
               <li><a href="https://www.ndsu.edu/ime/research/cell/">Connect Elicit Learn (CELL) Lab</a></li>
               <li><a href="https://www.ndsu.edu/centers/ccmsa/">Center of Computational Modeling, Simulation, and Analytics (CCMSA)</a></li>
               <li><a href="https://www.ndsu.edu/ime/research/engineered_tissue_manufacturing_lab/">Additive Manufacturing and Biomanufacturing Lab</a></li>
-              
+              <li>Seven total labs support IMSE research and education</li>
             </ul>
           </div>
           <div class="card">
@@ -261,7 +368,7 @@
               <li><a href="https://www.ndsu.edu/ime/research/automated_manufacturing_systems">Automated Manufacturing Systems</a></li>
               <li><a href="https://www.ndsu.edu/ime/research/human_factors_lab">Human Factors Lab</a></li>
               <li><a href="https://www.ndsu.edu/ime/research/welding_machine_shop">Manufacturing Lab</a></li>
-              
+              <li>Lab-based learning tied to industry-relevant problem solving</li>
             </ul>
           </div>
         </div>
@@ -270,12 +377,13 @@
           Across these labs, students and faculty apply optimization,
           simulation, machine learning, and systems analysis to solve practical
           challenges in healthcare, manufacturing, and operational planning.
-  
+          Explore more at
+          <a href="https://www.ndsu.edu/industrial-manufacturing-systems-engineering/research">IMSE Research</a>.
         </p>
       </section>
 
       <section>
-        <span class="pill">Section 6</span>
+        <span class="pill">Achievements</span>
         <h2>Department Achievements and Recognition</h2>
         <div class="grid grid-2">
           <div class="card">
@@ -300,7 +408,7 @@
       </section>
 
       <section>
-        <span class="pill">Section 7</span>
+        <span class="pill">Events &amp; News</span>
         <h2>Recent IMSE News and Department Events</h2>
         <div class="grid grid-2">
           <div class="card">
@@ -325,7 +433,7 @@
       </section>
 
       <section>
-        <span class="pill">Section 8</span>
+        <span class="pill">Career Outcomes</span>
         <h2>IMSE Career Outcomes, Salaries, and Leadership Pathways</h2>
         <p>
           IMSE graduates move into analytics, operations, manufacturing,
@@ -359,7 +467,7 @@
       </section>
 
       <section>
-        <span class="pill">Section 9</span>
+        <span class="pill">Get Involved</span>
         <h2>Get Involved: Student Chapters (INFORMS, IISE) and Outreach</h2>
         <p>
           Students can build leadership, communication, and technical skills
@@ -378,12 +486,16 @@
           </div>
           <div class="card">
             <strong>Connect with the Department and Explore Next Steps</strong>
-            <ul>
-              <li><a href="https://www.ndsu.edu/industrial-manufacturing-systems-engineering">Programs</a></li>
-              <li><a href="https://www.ndsu.edu/industrial-manufacturing-systems-engineering/people">People</a></li>
-              <li><a href="https://www.ndsu.edu/group_news/238">News</a></li>
-              <li><a href="https://www.ndsu.edu/industrial-manufacturing-systems-engineering/contact">Contact</a></li>
-            </ul>
+            <p>
+              Ready to learn more? Use the quick links below to continue your
+              IMSE journey.
+            </p>
+            <div class="section-cta">
+              <a class="btn btn-accent" href="https://www.ndsu.edu/industrial-manufacturing-systems-engineering">Programs</a>
+              <a class="btn btn-accent" href="https://www.ndsu.edu/industrial-manufacturing-systems-engineering/people">People</a>
+              <a class="btn btn-accent" href="https://www.ndsu.edu/group_news/238">News</a>
+              <a class="btn btn-accent" href="https://www.ndsu.edu/industrial-manufacturing-systems-engineering/contact">Contact</a>
+            </div>
           </div>
         </div>
       </section>
